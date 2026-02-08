@@ -1,0 +1,60 @@
+{
+	"folders": [
+		{
+			"path": "../../coding/ARRAY"
+		},
+		{
+			"path": "../../SIGMA WEB DEV"
+		},
+		{
+			"path": "../../coding/2-D ARRAY"
+		},
+		{
+			"path": "../../coding/PYQ"
+		},
+		{
+			"path": "../../coding/STRINGS"
+		},
+		{
+			"path": "../../coding/STRUCTURE"
+		},
+		{
+			"path": "../../coding/file handling"
+		},
+		{
+			"path": "../../coding/PRACTICE"
+		},
+		{
+			"path": "../../coding/Recursion"
+		},
+		{
+			"path": "../../coding/function"
+		},
+		{
+			"path": "../../C++/c++basics"
+		},
+		{
+			"path": "../../C++/Leetcode"
+		},
+		{
+			"path": "../../SPOTIFY"
+		},
+		{
+			"path": "../../project"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../PORTFOLIO"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "SIGMA WEB DEV",
+		"files.associations": {
+			"functional": "c",
+			"iostream": "cpp",
+			"vector": "cpp"
+		}
+	}
+}

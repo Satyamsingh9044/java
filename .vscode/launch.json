@@ -1,0 +1,217 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "LinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "MyAWTApp",
+            "request": "launch",
+            "mainClass": "MyAWTApp",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "abc",
+            "request": "launch",
+            "mainClass": "abc",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "backonarray",
+            "request": "launch",
+            "mainClass": "backonarray",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "binarysearch",
+            "request": "launch",
+            "mainClass": "binarysearch",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "butterfly",
+            "request": "launch",
+            "mainClass": "butterfly",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "doublyll",
+            "request": "launch",
+            "mainClass": "doublyll",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "ex7",
+            "request": "launch",
+            "mainClass": "ex7",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "floydtri",
+            "request": "launch",
+            "mainClass": "floydtri",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "funoverload",
+            "request": "launch",
+            "mainClass": "funoverload",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "hollowrec",
+            "request": "launch",
+            "mainClass": "hollowrec",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "index",
+            "request": "launch",
+            "mainClass": "index",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "kadanesalgo",
+            "request": "launch",
+            "mainClass": "kadanesalgo",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "largest",
+            "request": "launch",
+            "mainClass": "largest",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "linearsearch",
+            "request": "launch",
+            "mainClass": "linearsearch",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "maxsubarr",
+            "request": "launch",
+            "mainClass": "maxsubarr",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "maxsubprefix",
+            "request": "launch",
+            "mainClass": "maxsubprefix",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "mergesort",
+            "request": "launch",
+            "mainClass": "mergesort",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "mostwater",
+            "request": "launch",
+            "mainClass": "mostwater",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "nqueen",
+            "request": "launch",
+            "mainClass": "nqueen",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "pairsum",
+            "request": "launch",
+            "mainClass": "pairsum",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "pattern",
+            "request": "launch",
+            "mainClass": "pattern",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "permutation",
+            "request": "launch",
+            "mainClass": "permutation",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "primesinrange",
+            "request": "launch",
+            "mainClass": "primesinrange",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "stackB",
+            "request": "launch",
+            "mainClass": "stackB",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "stackll",
+            "request": "launch",
+            "mainClass": "stackll",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "subarray",
+            "request": "launch",
+            "mainClass": "subarray",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "subset",
+            "request": "launch",
+            "mainClass": "subset",
+            "projectName": "JAVA_4a1c0460"
+        },
+        {
+            "type": "java",
+            "name": "zeroonetrai",
+            "request": "launch",
+            "mainClass": "zeroonetrai",
+            "projectName": "JAVA_4a1c0460"
+        }
+    ]
+}
