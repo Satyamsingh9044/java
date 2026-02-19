@@ -1,0 +1,22 @@
+public class BinarySubstring {  //lc-696
+    public static int countBinarySubstrings(String s) {
+        int result=0;
+        int curr=1;
+        int prev=0;
+        for(int i=1;i<s.length();i++){
+            if(s.charAt(i)==s.charAt(i-1)){
+                curr++;
+            }else{
+                result+=Math.min(prev,curr);
+                prev=curr;
+                curr=1;
+            }
+        }
+        result+=Math.min(prev,curr); //for last set (we come out of loop so)
+        return result;
+    }
+    public static void main(String[] args) {
+        String s="00110011";
+        System.out.println(countBinarySubstrings(s));
+    }
+}
