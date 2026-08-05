@@ -1,4 +1,4 @@
-public class matRotation {
+public class matRotation { //lc-1886
     public  boolean findRotation(int[][] mat, int[][] target) {
         if(compare(mat, target))return true;
         int count = 3;
