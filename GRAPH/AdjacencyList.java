@@ -12,9 +12,17 @@ public class AdjacencyList {
         }
     }
 
-    public static void bfs(ArrayList<Edge>[] graph){ //O(V+E)
+    public static void bfs(ArrayList<Edge>[] graph){
+        boolean vis[]=new boolean[graph.length];
+        for(int i=0;i<graph.length;i++){
+            if(!vis[i]){
+                bfsUtil(graph,vis);
+            }
+        }
+    }
+
+    public static void bfsUtil(ArrayList<Edge>[] graph,boolean vis[]){ //O(V+E)
         Queue<Integer> q=new LinkedList<>();
-        boolean[] vis=new boolean[graph.length];
         q.add(0);
         while(!q.isEmpty()){
             int curr=q.remove();
@@ -29,13 +37,22 @@ public class AdjacencyList {
         }
     }
 
-    public static void dfs(ArrayList<Edge>[] graph,int curr,boolean vis[]){ //T.C=O(V + E)
+    public static void dfs(ArrayList<Edge>[] graph){
+        boolean vis[]=new boolean[graph.length];
+        for(int i=0;i<graph.length;i++){
+            if(!vis[i]){
+                dfsUtil(graph,1,vis);
+            }
+        }
+    }
+
+    public static void dfsUtil(ArrayList<Edge>[] graph,int curr,boolean vis[]){ //T.C=O(V + E)
         System.out.print(curr+" ");
         vis[curr]=true;
         for(int i=0;i<graph[curr].size();i++){
             Edge e=graph[curr].get(i);
             if(!vis[e.dest]){
-                dfs(graph,e.dest,vis);
+                dfsUtil(graph,e.dest,vis);
             }
         }
     }
