@@ -27,6 +27,7 @@ public static  class Edge{
 
     }
 
+    //dfs
     public static void topologicalSort(ArrayList<Edge>[] graph){//O(V+E)
         boolean vis[]=new boolean[graph.length];
         Stack<Integer> s=new Stack<>();
@@ -51,10 +52,44 @@ public static  class Edge{
         s.push(curr);
     }
 
+    //using bfs(Kahn's Algorithm)
+
+    public static void calInDeg(ArrayList<Edge>[] graph,int indeg[]){
+        for(int i=0;i<graph.length;i++){
+            for(int j=0;j<graph[i].size();j++){
+                Edge e=graph[i].get(j);
+                indeg[e.dest]++;
+            }
+        }
+    }
+
+    public static void topSort(ArrayList<Edge>[] graph){
+        int indeg[]=new int[graph.length];
+        calInDeg(graph, indeg);
+        Queue<Integer>q=new LinkedList<>();
+        for(int i=0;i<indeg.length;i++){
+            if(indeg[i]==0){
+                q.add(i);
+            }
+        }
+        //bfs
+        while(!q.isEmpty()){
+            int curr=q.remove();
+            System.out.print(curr+" ");
+            for(int i=0;i<graph[curr].size();i++){
+                Edge e=graph[curr].get(i);
+                indeg[e.dest]--;
+                if(indeg[e.dest]==0){
+                    q.add(e.dest);
+                }
+            }
+        }
+    }
+
     public static void main(String[] args) {
         int V=6;
         ArrayList<Edge>[] graph=new ArrayList[V];
         createGraph(graph);
-        topologicalSort(graph);
+        topSort(graph);
     }
 }
