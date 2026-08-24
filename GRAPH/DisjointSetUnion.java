@@ -27,6 +27,8 @@ public class DisjointSetUnion {
         }
     }
 
+    
+
     public static void main(String[] args) {
         init();
         union(1, 3);
