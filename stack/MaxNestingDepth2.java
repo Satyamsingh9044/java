@@ -1,4 +1,4 @@
-//lc- 1111. Maximum Nesting Depth of Two Valid Parentheses Strings
+//lc- 1111. Maximum Nesting Depth of Two Valid Parentheses Strings.
 
 public class MaxNestingDepth2 {
      public int[] maxDepthAfterSplit(String seq) {
