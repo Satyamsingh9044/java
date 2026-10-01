@@ -163,3 +163,28 @@ public class height {
         System.err.println(LCA(root,4,6).data);
     }
 }
+
+//bfs for height of tree
+
+// public int maxDepth(TreeNode root) {
+//         if(root==null) return 0;
+//         if(root.left==null && root.right==null) return 1;
+//         int ans=0;
+//             Queue<TreeNode>q=new LinkedList<>();
+//             q.offer(root);
+//             while(!q.isEmpty()){
+//                 int size=q.size();
+//                 while(size>0){
+//                     TreeNode curr=q.poll();
+//                     if(curr.left!=null){
+//                     q.offer(curr.left);
+//                     }
+//                     if(curr.right!=null){
+//                     q.offer(curr.right);
+//                     }
+//                     size--;
+//                 }
+//                 ans++;
+//             }
+//             return ans;
+//     }
