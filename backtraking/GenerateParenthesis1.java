@@ -3,6 +3,7 @@
 // Approach-1 (Simple Recursion)
 //T.C : O(2n* (2^(2n)) -> Removing constant -> O(n * (2^n))
 //S.C : O(2*n) -> Removing constant -> O(n) -> recursion stack space - Max depth of recusion tree
+import java.util.*;
 class GenerateParenthesis {
     public List<String> generateParenthesis(int n) {
         List<String> result = new ArrayList<>();
@@ -45,7 +46,7 @@ class GenerateParenthesis {
 // Approach-2 (Smart Recursion)
 //T.C : O(2^n)
 //S.C : O(2*n) -> Removing constant -> O(n) -> recursion stack space - Max depth of recusion tree
-public class GenerateParenthesis {
+public class GenerateParenthesis1 {
     private List<String> result = new ArrayList<>();
 
     public List<String> generateParenthesis(int n) {
