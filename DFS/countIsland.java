@@ -1,5 +1,5 @@
 //lc-3619. Count Islands With Total Value Divisible by K
-
+//dfs
 class countIsland {
     int m,n;
     int [][]direction={{0,1},{0,-1},{1,0},{-1,0}};
@@ -16,7 +16,7 @@ class countIsland {
                 sum=sum+dfs(ni,nj,grid);
             }
         }
-        
+
         return sum;
     }
 
